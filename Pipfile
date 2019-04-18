@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+pandas = "*"
+nltk = "*"
+matplotlib = "*"
+sastrawi = "*"
+python-crfsuite = "==0.9.6"
+scikit-learn = "*"
+jupyter = "*"
+tweepy = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
